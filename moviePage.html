@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For CORS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+
+
+  <link rel="stylesheet" href="./css/movie.css">
+
+  <!-- We will be changing the title with the movie name when the movie page loads -->
+  <title>Movie Search</title>
+</head>
+<body>
+
+    <main class="container">
+        <div class="header">
+          <a href="./index.html" ><button class="back-button">Back</button> </a>
+        </div>
+
+        <div class="content">
+          <div class="left-side">
+            <img id="poster" src="" alt="Movie Poster">
+          </div>
+          <div class="right-side">
+            <h1 id="title"></h1>
+            <!-- will be populating the below fields from JS side -->
+            <p><strong>Year: </strong><span id="year"></span></p>
+            <p><strong>Plot: </strong><span id="plot"></span></p>
+            <p><strong>Released Date: </strong><span id="releasedDate"></span></p>
+            <p><strong>Actors: </strong><span id="actors"></span></p>
+            <p><strong>Gener: </strong><span id="gener"></span></p>
+            <p><strong>Language: </strong><span id="language"></span></p> 
+            <p><strong>Rating: </strong><span id="rating"></span></p> 
+            
+          </div>
+        </div>      
+  </main>
+  <script src="./js/moviePage.js"></script>
+</body>
+</html>
