@@ -40,7 +40,7 @@ b. Each search result of the movie have a favourite button, clicking on which th
 
 c. On clicking any particular search result (any movie), it will opem a new page with more information about that movie (movie page)
 ```
-<img src="./img/home.png" > </img>
+<img src="./img/homepage.png" > </img>
 
 ### 2. Movie Page :- 
 ```
